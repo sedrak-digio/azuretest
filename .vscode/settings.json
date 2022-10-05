@@ -1,4 +1,0 @@
-{
-    "appService.defaultWebAppToDeploy": "/subscriptions/cfb2dbf7-9908-41d9-a544-ef28d09d1a2d/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/pias-azuretest",
-    "appService.deploySubpath": "."
-}
