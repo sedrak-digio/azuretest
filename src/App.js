@@ -7,7 +7,7 @@ function App() {
 
   useEffect(() => {
     (async function () {
-      const { text } = await( await fetch(`/api/HTTPTrigger1B`)).json();
+      const { text } = await( await fetch(`https://australia-southeast1-api-test-83de7.cloudfunctions.net/cocktailParty`)).json();
       setData(text);
     })();
   });
